@@ -13,6 +13,9 @@
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
+# 1-添加 ShadowSocksR Plus+ 插件
+echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+
 
 # Add luci-app-poweroff
 git clone --depth=1 https://github.com/esirplayground/luci-app-poweroff
