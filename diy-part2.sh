@@ -41,10 +41,6 @@ sed -i "s/${orig_version}/R${date_version} by EircoD/g" package/lean/default-set
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
 git clone --depth=1 -b master https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
-git clone --depth=1 -b master https://github.com/vernesong/OpenClash package/luci-app-openclash
-git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall
-git clone --depth=1 -b main https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
-git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall2 package/openwrt-passwall2
 git clone https://github.com/sirpdboy/luci-app-taskplan package/luci-app-taskplan
 # mosdns
 find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
